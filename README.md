@@ -39,7 +39,7 @@ Download and install from [https://nodejs.org](https://nodejs.org) (LTS version 
 |-------|---------|
 | Large image | Manga cover art |
 | Large image text | Manga title |
-| Details | Manga title |
+| Details | Program name |
 | State | Chapter number |
 | Elapsed time | Time spent reading |
 | Buttons | "View on MangaDex" · "View project on GitHub" |
