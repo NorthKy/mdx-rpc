@@ -6,8 +6,8 @@ const path = require("path");
 const fs = require("fs");
 require("dotenv").config({ path: path.join(process.cwd(), ".env") });
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const PORT = process.env.PORT;
+const CLIENT_ID = process.env.CLIENT_ID || "1414234605338361936";
+const PORT = process.env.PORT || 43215;
 const RECONNECT_INTERVAL = 10000;
 
 let rpc = null;
