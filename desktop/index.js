@@ -4,7 +4,7 @@ const { Client } = require("@xhayper/discord-rpc");
 const SysTray = require("systray2").default;
 const path = require("path");
 const fs = require("fs");
-require("../dotenv").config();
+require("dotenv").config();
 
 const CLIENT_ID = process.env.DISCORD_CLIENT_ID;
 const PORT = process.env.PORT;
@@ -139,7 +139,7 @@ app.listen(PORT, "127.0.0.1", () => {
 
 
 function getIconBase64() {
-  const ico = path.join(__dirname, "favicon.ico");
+  const ico = path.join(process.cwd(), "favicon.ico");
   if (fs.existsSync(ico)) {
     return fs.readFileSync(ico).toString("base64");
   }
@@ -177,5 +177,10 @@ function createTray() {
 
 connectRPC();
 setTimeout(() => {
-  try { createTray(); } catch {}
+  try {
+    createTray();
+    console.log("Tray created");
+  } catch (e) {
+    console.error("Tray failed:", e);
+  }
 }, 1000);

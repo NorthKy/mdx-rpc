@@ -1,11 +1,6 @@
 @echo off
 cd /d "%~dp0"
 
-echo ________________________________
-echo Md-X RPC Client Setup
-echo ________________________________
-echo.
-
 :: Check Node.js
 where node >nul 2>&1
 if %errorlevel% neq 0 (
