@@ -1,37 +1,35 @@
 # Hơi ấm cuối cùng (Md-X RPC Client)
 
-The very reason this project was made was solely because of the removal of MangaDex activity from PreMid. 
+This project was created in response to MangaDex activity being removed from PreMiD.
 
 ---
 
-## Installation and Setup.
+## Installation and Setup
 
 ### Step 1. Install Node.js
 
-- Download and install from [https://nodejs.org](https://nodejs.org) (LTS version recommended)
+Download and install from [https://nodejs.org](https://nodejs.org) (LTS version recommended).
 
 ### Step 2. Install the Client
 
 1. Go to the [releases page](https://github.com/NorthKy/mdx-rpc/releases)
-2. Download the latest release **zip file**
-3. Unzip the **file**
-4. Open the **unzipped folder** and navigate to the **desktop** folder
-5. Open the **startup.bat** file to install the required dependencies
-6. To start the program, open the **start.vbs** file
+2. Download and extract the latest release **zip file**
+3. Open the extracted folder and navigate to the `/desktop` folder
+4. Run **startup.bat** to install the required dependencies
+5. Run **start.vbs** to launch the program
 
 ### Step 3. Load the Browser Extension
 
-1. Open your web browser
-2. Go to `<browser_name>://extensions` (EX: `<chrome://extensions`)
-3. Enable **Developer Mode** (toggle in top-right)
-4. Click **Load unpacked**
-5. Select the `extension/` folder from this project
-6. The MangaDex Presence icon will appear in your toolbar
+1. Open your browser and go to `<browser>://extensions` (e.g. `chrome://extensions`)
+2. Enable **Developer Mode** (toggle in the top-right corner)
+3. Click **Load unpacked**
+4. Select the `/extension` folder from the project directory
+5. The MangaDex Presence icon will appear in your browser toolbar
 
-## Notes.
+## Notes
 
-1. Incase the program is unable to start, please use the **killswitch-localhost.bat** file
-2. The program is automatically minimized to tray on start-up, you may find the program icon in your system tray. Clicking on it will offers you an option to exit the program entirely.
+- If the program fails to start, run **killswitch-localhost.bat** to reset it.
+- The program launches minimized to the system tray. Click its icon in the tray to access the option to exit.
 
 ---
 
@@ -41,14 +39,14 @@ The very reason this project was made was solely because of the removal of Manga
 |-------|---------|
 | Large image | Manga cover art |
 | Large image text | Manga title |
-| Details | Program Title |
-| State | Chapter XX |
-| Elapsed time | How long you've been reading |
-| Buttons | "View on MangaDex" link & "View project on Github" link | 
+| Details | Manga title |
+| State | Chapter number |
+| Elapsed time | Time spent reading |
+| Buttons | "View on MangaDex" · "View project on GitHub" |
 
 ---
 
-## Contacts
+## Contact
 
 - Email: atnorky@gmail.com
 - Discord: @at_norky

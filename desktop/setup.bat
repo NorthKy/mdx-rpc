@@ -17,8 +17,10 @@ if not exist "node_modules" (
 echo Installing dependencies...
 npm install
 npm install @xhayper/discord-rpc
+npm install systray2
 echo.
 echo Installation complete.
+
 ) else (
 echo Dependencies already installed.
 )
