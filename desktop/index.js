@@ -83,9 +83,7 @@ async function setActivity(data) {
         },
         {
           label: "View project on GitHub",
-          url: data.chapterNum && data.chapterId
-            ? `https://mangadex.org/chapter/${data.chapterId}`
-            : `https://mangadex.org/title/${data.mangaId}`,
+          url: `https://github.com/NorthKy/mdx-rpc`
         },
       ],
       instance: false,
