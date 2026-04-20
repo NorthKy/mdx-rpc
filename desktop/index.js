@@ -4,7 +4,7 @@ const { Client } = require("@xhayper/discord-rpc");
 const SysTray = require("systray2").default;
 const path = require("path");
 const fs = require("fs");
-require("dotenv").config();
+require("dotenv").config({ path: path.join(process.cwd(), ".env") });
 
 const CLIENT_ID = process.env.CLIENT_ID;
 const PORT = process.env.PORT;
