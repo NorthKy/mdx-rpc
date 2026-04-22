@@ -51,3 +51,7 @@ Download and install from [https://nodejs.org](https://nodejs.org) (LTS version 
 - Email: atnorky@gmail.com
 - Discord: @at_norky
 
+## License
+
+This project is licensed under the **MIT License**
+
